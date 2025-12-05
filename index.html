@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Default of Credit Card Clients — Education vs Default Rate</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+</head>
+<body>
+  <main>
+    <h1>Default Rate by Education Level</h1>
+    <p class="subtitle">Dataset: UCI — Default of Credit Card Clients</p>
+
+    <div class="controls">
+      <label for="genderFilter">Filter by gender:</label>
+      <select id="genderFilter">
+        <option value="all">All</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <div id="chart"></div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
